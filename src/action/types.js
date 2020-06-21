@@ -1,0 +1,13 @@
+export const GET_HEADLINES = "GET_HEADLINES";
+export const GET_GSMARENA = "GET_GSMARENA";
+export const GET_TIMESOFINDIA = "GET_TIMESOFINDIA";
+export const GET_BBCNEWS = "GET_BBCNEWS";
+export const GET_ABCNEWS = "GET_ABCNEWS";
+export const GET_CNBC = "GET_CNBC";
+export const GET_BUSINESSINSIDER = "GET_BUSINESSINSIDER";
+export const GET_CNN = "GET_CNN";
+export const GET_GOOGLENEWS = "GET_GOOGLENEWS";
+export const GET_NATGEO = "GET_NATGEO";
+export const GET_NFL = "GET_NFL";
+export const GET_THEHINDU = "GET_THEHINDU";
+export const GET_WSJ = "GET_WSJ";

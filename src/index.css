@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
+  background-color: #eaeae8;
+  scroll-behavior: smooth;
+}
+
+.heading{
+  font-family: 'Oswald', sans-serif;
+}
+
+.greenbg{
+  background-color: #00c119;
+}
+
+.greentxt{
+  color: #00c119;
+}
+
+.cimg{
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.newscard{
+  padding: 12px;
+}
+
+.newscard:hover .cimg{
+  transform: scale(1.1,1.1);
+}
+
+.hrbar{
+  height: 2px;
+  width: 25%;
+  transition: 0.5s;
+}
+
+.newscard:hover .hrbar{
+  width: 100%;
+}
+
+.logobanner{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: -3px 3px 5px gray;
+  background-color: white;
+}
+
+.brandimg{
+  height: 40px;
+  width: 40px;
+}
+
+.navpad{
+  background-image: url('./assets/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.navpadlogo{
+  width: 80%;
+  height: unset;
+  border-radius: 20px;
+  /* box-shadow: -3px 3px 5px gray; */
+  background-color: white;
+}
+
+.npitext{
+  font-size: 20px;
+  text-shadow: 0px 0px 10px black;
+}
+
+.loaderimg{
+  width: 50%;
+}
+
+
+@media screen and (max-width:600px){
+  .newscard{
+    padding: 5px;
+  }
+  .navpadlogo{
+    width: 90%;
+    border-radius: 5px;
+  }
+  .npitext{
+    font-size: 10px;
+  }
+  .loaderimg{
+    width: 80%;
+  }
+}
